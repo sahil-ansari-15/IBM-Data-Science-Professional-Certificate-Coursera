@@ -1,7 +1,7 @@
 # IBM-Data-Science-Professional-Certificate-Coursera
 "IBM Data Science Professional Certificate" offered by Coursera consists of 9 online courses that provides the latest job-ready tools and skills, including open source tools and libraries, Python, databases, SQL, data visualization, data analysis, statistical analysis, predictive modeling, and machine learning algorithms. Courses teaches data science through hands-on practice in the IBM Cloud using real data science tools and real-world data sets.
 
-### COURSE 1 : What is Data Science?
+### COURSE 1 : Data Science Orientation
 Certificate Link : https://coursera.org/share/96eaf559694a9c017d41004dfafaa14e
 
 ### COURSE 2 : Tools for Data Science
