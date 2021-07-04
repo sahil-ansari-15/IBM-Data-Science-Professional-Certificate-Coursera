@@ -1,0 +1,21 @@
+(A)Regression:  These are supervised learning models means first we have to train the model on some training data set. After training the model estimates the correlation(slope of line) between independent variable (predictive features/variables) and dependent variable(output variable). It predicts the output variable using previously calculated correlation & new values of predictive/independent features. Accuracy of this model can be evaluated by predicting its output on a test data set.
+(A1) Simple Linear regression: Have a single predictive/independent variable.
+(A2) Multiple Linear regression: Have Multiple predictive/independent variables.
+(A3) Polynomial regression: Correlation line is not straight (unlike linear regression) which best fits the data points.
+
+(B) Classification: These are also Supervised learning models.
+(B1) K-Nearest Neighbor (KNN) : It plots each data points (having various predictive/independent variables) on a 2D plane and it predicts the output as the most repeated data point from the describing the nearest neighbors.
+(B2) Decision Tree: It classifies the data points into branches using a node called attributes (Ex: income, gender). Attributes with low entropy (degree if randomness) selected for classification.
+(B3) Logistic Regression:
+By using sigmoid function it predicts the output (class of classification) along with the PROBABILITY of each predicted output belonging to a class.
+(B4) Support Vector Machine (SVM): It understands the patterns within the data to predict the class. It has 2 steps: (1) mapping data points to a higher dimensional space(known as kernelling). (2) finding a separator(a plane in a higher dimensional space).
+
+(C) Clustering: These are Unsupervised learning models.
+(C1) k-Means Clustering:  Its groups/cluster data points based on the similarities with each other. Number of clusters are decided by ELBOW METHOD. Centroids of each cluster are placed randomly, then the distance of each data points from each cluster centroids are calculated. Then each Data points are allotted to the cluster to which it has a minimum distance. Finally, centroid locations are shifted to the mean coordinates of all the  data points in respective clusters and the process is repeated until centroids stop changing their locations.
+(C2) Hierarchical Clustering:  It builds a hierarchy of clusters where each node is a cluster consisting of the clusters of its daughter nodes. It looks like a dendrogram(tree diagram). It has 2 approaches,(1)Agglomerative (bottom to top). (2) Divisive (top to bottom). Most commonly used is agglomerative.
+(C3) Density based Clustering (DBSCAN):  It is mostly used for clustering geospatial data. DBSCAN clusters based on its density, as it sounds, sometimes resulting in arbitrary shaped clusters (clusters inside clusters) where else, k-mean Clustering always has spherical shaped clusters.
+
+(D) Recommendation system:
+(D1) Content based filtering system: it uses user's pass history data for giving new recommendations.
+(D2) Collaborative filtering system:
+It gives recommendations based on the feedback of similar users. People liking the same content/movie/product are considered as similar users.
